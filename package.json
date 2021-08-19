@@ -13,6 +13,9 @@
     "type": "git",
     "url": "git+https://github.com/Spring-Listening/anydoor.git"
   },
+  "lint-staged": {
+    "*.{js,ts}": "eslint --fix"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -25,6 +28,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-prettier": "^3.4.0",
-    "husky": "^6.0.0"
+    "husky": "^6.0.0",
+    "lint-staged": "^11.1.2"
   }
 }
