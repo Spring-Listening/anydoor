@@ -1,7 +1,7 @@
 {
-  "name": "spring_zou",
+  "name": "anydoor",
   "version": "1.0.1",
-  "description": "",
+  "description": "file server",
   "main": "src/app.js",
   "bin": {
     "anydoor": "bin/anydoor"
