@@ -1,7 +1,7 @@
 {
-  "name": "anydoor",
+  "name": "dirserver",
   "version": "1.0.2",
-  "description": "file server",
+  "description": "any dir is server target",
   "main": "src/app.js",
   "bin": {
     "anydoor": "bin/anydoor"
