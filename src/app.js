@@ -4,14 +4,14 @@
  * @Author: chunwen (chunwen.zou@caibeitv.com)
  * @Date: 2021-08-19 16:19:04
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2021-08-25 16:40:28
+ * @LastEditTime: 2021-08-25 17:21:34
  */
 const http = require('http')
 const path = require('path')
 const chalk = require('chalk')
 
 const route = require('./helper/route')
-
+const openUrl = require('./helper/openUrl')
 // const { port, hostname, root } = require('./config/defaultConfig')
 
 class Server {
@@ -31,6 +31,7 @@ class Server {
       console.log(
         chalk.greenBright(`Server running at http://${this.conf.hostname}:${this.conf.port}/`)
       )
+      openUrl(`http://${this.conf.hostname}:${this.conf.port}/`)
     })
   }
 }
