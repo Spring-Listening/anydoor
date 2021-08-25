@@ -1,5 +1,5 @@
 {
-  "name": "@spring_zou/dirserver",
+  "name": "@spring_zou/dserver",
   "version": "1.0.2",
   "description": "any dir is server target",
   "main": "src/app.js",
