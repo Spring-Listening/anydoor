@@ -4,7 +4,7 @@
   "description": "any dir is server target",
   "main": "src/app.js",
   "bin": {
-    "anydoor": "bin/anydoor"
+    "anydoor": "bin/dserver"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
