@@ -1,10 +1,10 @@
 {
   "name": "@spring_zou/dserver",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "any dir is server target",
   "main": "src/app.js",
   "bin": {
-    "anydoor": "bin/dserver"
+    "dserver": "bin/dserver"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
